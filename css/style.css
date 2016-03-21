@@ -1,0 +1,15 @@
+html,
+body {
+  height: 100%;
+}
+.full-bg-img {
+    background: url('img/plane.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.top-nav-collapse {
+    background-color: #4285F4;
+}
