@@ -8212,7 +8212,7 @@ Video background
 }
 
 .view img {
-  display: block;
+  display: inline;
   position: relative;
 }
 
