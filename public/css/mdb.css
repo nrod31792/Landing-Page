@@ -3296,20 +3296,20 @@ button.btn-floating {
 
 .btn-default {
   color: #fff;
-  background: #2BBBAD;
+  background: #11820F;
 }
 
 .btn-default:hover, .btn-default:focus {
-  background-color: #30cfc0 !important;
+  background-color: #2EB12C !important;
   color: #fff !important;
 }
 
 .btn-primary {
-  background: #4285F4;
+  background: #020F41;
 }
 
 .btn-primary:hover, .btn-primary:focus {
-  background-color: #5a95f5 !important;
+  background-color: #1D3AA8 !important;
   color: #fff;
 }
 
