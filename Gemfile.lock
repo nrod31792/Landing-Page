@@ -39,7 +39,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  activerecord
   pg
   sinatra
   sinatra-activerecord
