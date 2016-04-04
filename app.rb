@@ -11,6 +11,7 @@ post '/submit' do
 	@model = Model.new(params[:model])
 	if @model.save
 		redirect back
+    p 'yo'
 	else
 		"Sorry, there was an error!"
 	end
