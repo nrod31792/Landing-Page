@@ -17,7 +17,7 @@ post '/submit' do
 	end
 end
 
-get '/model.erb' do
+get '/models.erb' do
 	@models = Model.all
 	erb :models
 end
