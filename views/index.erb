@@ -110,17 +110,19 @@
   </div>
     <!--Form-->
 
-
-  <div class="divider-new">Sign Up For Future Updates</div>  <!--Form-->
   <div class="container">
-    <form action="/submit" method="POST">
-    	Your Name: <input type="text" name="model[name]"  />
-      Your Email: <input type="text" name="model[email]" />
-      Your Company: <input type="text" name="model[company]"  />
-    	<input type="submit" value="Submit" />
-    </form>
+    <div class="divider-new">Sign Up For Future Updates</div>  <!--Form-->
+      <div class="container">
+        <form action="/submit" method="POST">
+        	Your Name: <input type="text" name="model[name]"  />
+          Your Email: <input type="text" name="model[email]" />
+          Your Company: <input type="text" name="model[company]"  />
+        	<button type="submit" class="btn btn-success waves-effect waves-light" id="submitbuttoncolor"> Submit
+        </form>
+      </div>
   </div>
 
+  <div class="container">
     <section id="contact">
       <div class="divider-new">Contact Us</div>
 
@@ -134,6 +136,7 @@
           </ul>
         </div>
       </div>
+  </div>
       <!--/.Main Container-->
     </main>
 
