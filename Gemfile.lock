@@ -40,6 +40,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activerecord
   pg
   rake
   sinatra
