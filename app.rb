@@ -2,7 +2,7 @@ require 'sinatra'
 require 'sinatra/activerecord'
 require './config/environments'#database configuration
 require './models/model'
-require 'Hirb'
+require 'hirb'
 
 get '/' do
   erb :index
